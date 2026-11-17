@@ -5,6 +5,8 @@
 一个可运行的最小实现：结构感知切片、中英桥、混合检索、条件重排、章节级评测。
 它演示的是**方法**，不是完整生产系统（原因见 [docs/03_what_is_missing.md](docs/03_what_is_missing.md)）。
 
+> [GitHub](https://github.com/wwwakd/embedded-rag-demo) ｜ [GitCode 镜像](https://gitcode.com/2301_77008090/embedded-rag-demo)　两处同源，任选其一 clone。
+
 ---
 
 ## 这个 Demo 想证明什么
@@ -80,3 +82,12 @@ CrossEncoder（bge-reranker-v2-m3），这里换成无依赖的近似实现。
 
 **生产语料（近两千页手册、1437 chunks）、真实评测集（200 题）、
 CrossEncoder 重排、向量索引、以及整个上游业务系统，都不在这里。**
+
+---
+
+## 双平台同步
+
+- 两个远端内容一致，任选其一 clone；
+- 本仓库配置了双 push URL，一次 `git push` 同时更新 GitHub 与 GitCode；
+- 校验脚本：`powershell -File scripts/check_mirror.ps1`
+- 若两边历史分叉，脚本只报告不自动修复——先 `git fetch` 比对，禁止直接 force。
