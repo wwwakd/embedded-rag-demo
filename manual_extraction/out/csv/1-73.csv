@@ -1,0 +1,7 @@
+﻿col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8
+Bits,Field,Value,Description,,,,
+31-0,GPIO31-GPIO0,0 1,Each GPIO port A pin (GPIO0-GPIO31) corresponds to one bit in this register as shown in Figure 1- 68. Writes of 0 are ignored. This register always reads back a 0. Writing a 1 forces the respective output data latch to toggle from its current state. If the pin is configured as a GPIO output then it will be driven in the opposite direction of its current state. If the pin is not configured as a GPIO output then the latch is toggled but the pin is not driven.,,,,
+GPIO63,GPIO62,GPIO61,GPIO60,GPIO59,GPIO58,GPIO57,GPIO56
+GPIO55,GPIO54,GPIO53,GPIO52,GPIO51,GPIO50,GPIO49,GPIO48
+GPIO47,GPIO46,GPIO45,GPIO44,GPIO43,GPIO42,GPIO41,GPIO40
+GPIO39,GPIO38,GPIO37,GPIO36,GPIO35,GPIO34,GPIO33,GPIO32

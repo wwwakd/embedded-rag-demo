@@ -1,0 +1,5 @@
+﻿col_1,col_2,col_3,col_4
+Bits,Field,Value,Description
+15-1,PIEVECT,,These bits indicate the address within the PIE vector table from which the vector was fetched. The least significant bit of the address is ignored and only bits 1 to 15 of the address is shown. You can read the vector value to determine which interrupt generated the vector fetch. For Example: If PIECTRL = 0x0D27 then the vector from address 0x0D26 (illegal operation) was fetched.
+0,ENPIE,0 1,"Enable vector fetching from PIE vector table. Note: The reset vector is never fetched from the PIE, even when it is enabled. This vector is always fetched from boot ROM. If this bit is set to 0, the PIE block is disabled and vectors are fetched from the CPU vector table in boot ROM. All PIE block registers (PIEACK, PIEIFR, PIEIER) can be accessed even when the PIE block is disabled. When ENPIE is set to 1, all vectors, except for reset, are fetched from the PIE vector table. The reset vector is always fetched from the boot ROM."
+Reserved,PIEACK,,

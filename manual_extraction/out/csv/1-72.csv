@@ -1,0 +1,3 @@
+﻿col_1,col_2,col_3,col_4
+Bits,Field,Value,Description
+31-0,GPIO31 - GPIO0,0 1,Each GPIO port A pin (GPIO0-GPIO31) corresponds to one bit in this register as shown in Figure 1-68. Writes of 0 are ignored. This register always reads back a 0. Writing a 1 forces the respective output data latch to low. If the pin is configured as a GPIO output then it will be driven low. If the pin is not configured as a GPIO output then the latch is cleared but the pin is not driven.

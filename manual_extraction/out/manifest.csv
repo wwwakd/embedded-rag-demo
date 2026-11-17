@@ -1,0 +1,105 @@
+﻿table_id,title,start_page,end_page,raw_md,structured_csv,structured_row_count,raw_char_count
+1-1,Flash/OTP Configuration Registers,44,45,out/raw/1-1.md,out/csv/1-1.csv,2,1773
+1-2,Flash Options Register (FOPT) Field Descriptions,45,45,out/raw/1-2.md,out/csv/1-2.csv,4,870
+1-3,Flash Power Register (FPWR) Field Descriptions,45,46,out/raw/1-3.md,out/csv/1-3.csv,5,743
+1-4,Flash Status Register (FSTATUS) Field Descriptions,46,47,out/raw/1-4.md,out/csv/1-4.csv,8,1510
+1-5,Flash Standby Wait Register (FSTDBYWAIT) Field Descriptions,47,47,out/raw/1-5.md,out/csv/1-5.csv,4,478
+1-6,Flash Standby to Active Wait Counter Register (FACTIVEWAIT) Field Descriptions,47,48,out/raw/1-6.md,out/csv/1-6.csv,4,536
+1-7,Flash Wait-State Register (FBANKWAIT) Field Descriptions,48,49,out/raw/1-7.md,out/csv/1-7.csv,6,2400
+1-8,OTP Wait-State Register (FOTPWAIT) Field Descriptions,49,50,out/raw/1-8.md,out/csv/1-8.csv,3,3386
+1-12,Code Security Module (CSM) Registers,53,54,out/raw/1-12.md,out/csv/1-12.csv,3,1464
+1-13,CSM Status and Control Register (CSMSCR) Field Descriptions,54,60,out/raw/1-13.md,out/csv/1-13.csv,9,9701
+1-14,"PLL, Clocking, Watchdog, and Low-Power Mode Registers",60,60,out/raw/1-14.md,out/csv/1-14.csv,3,1946
+1-15,Peripheral Clock Control 0 Register (PCLKCR0) Field Descriptions,60,62,out/raw/1-15.md,out/csv/1-15.csv,18,3038
+1-16,Peripheral Clock Control 1 Register (PCLKCR1) Field Descriptions,62,64,out/raw/1-16.md,out/csv/1-16.csv,18,2704
+1-17,Peripheral Clock Control 3 Register (PCLKCR3) Field Descriptions,64,65,out/raw/1-17.md,out/csv/1-17.csv,10,1074
+1-19,Low-Speed Peripheral Clock Prescaler Register (LOSPCP) Field Descriptions,65,67,out/raw/1-19.md,out/csv/1-19.csv,3,3024
+1-22,PLL Status Register (PLLSTS) Field Descriptions,73,74,out/raw/1-22.md,out/csv/1-22.csv,11,4169
+1-25,Low Power Mode Control 0 Register (LPMCR0) Field Descriptions,75,77,out/raw/1-25.md,out/csv/1-25.csv,6,3174
+1-27,System Control and Status Register (SCSR) Field Descriptions,79,80,out/raw/1-27.md,out/csv/1-27.csv,6,1865
+1-28,Watchdog Counter Register (WDCNTR) Field Descriptions,80,80,out/raw/1-28.md,out/csv/1-28.csv,4,496
+1-29,Watchdog Reset Key Register (WDKEY) Field Descriptions,80,80,out/raw/1-29.md,out/csv/1-29.csv,4,663
+1-30,Watchdog Control Register (WDCR) Field Descriptions,80,82,out/raw/1-30.md,out/csv/1-30.csv,11,3217
+1-31,"CPU Timers 0, 1, 2 Configuration and Control Registers",82,83,out/raw/1-31.md,out/csv/1-31.csv,1,1243
+1-32,TIMERxTIM Register Field Descriptions,83,83,out/raw/1-32.md,out/csv/1-32.csv,2,614
+1-33,TIMERxTIMH Register Field Descriptions,83,83,out/raw/1-33.md,out/csv/1-33.csv,2,142
+1-34,TIMERxPRD Register Field Descriptions,83,83,out/raw/1-34.md,out/csv/1-34.csv,2,613
+1-35,TIMERxPRDH Register Field Descriptions,83,84,out/raw/1-35.md,out/csv/1-35.csv,4,269
+1-36,TIMERxTCR Register Field Descriptions,84,85,out/raw/1-36.md,out/csv/1-36.csv,10,2240
+1-37,TIMERxTPR Register Field Descriptions,85,85,out/raw/1-37.md,out/csv/1-37.csv,4,1359
+1-38,TIMERxTPRH Register Field Descriptions,85,92,out/raw/1-38.md,out/csv/1-38.csv,42,6786
+1-39,GPIO Control Registers,92,92,out/raw/1-39.md,out/csv/1-39.csv,1,1205
+1-40,GPIO Interrupt and Low Power Mode Select Registers,92,93,out/raw/1-40.md,out/csv/1-40.csv,1,3843
+1-41,GPIO Data Registers,93,96,out/raw/1-41.md,out/csv/1-41.csv,2,7335
+1-50,GPIO Port A Multiplexing 1 (GPAMUX1) Register Field Descriptions,104,106,out/raw/1-50.md,out/csv/1-50.csv,21,4728
+1-51,GPIO Port A MUX 2 (GPAMUX2) Register Field Descriptions,106,108,out/raw/1-51.md,out/csv/1-51.csv,21,3314
+1-52,GPIO Port B MUX 1 (GPBMUX1) Register Field Descriptions,108,110,out/raw/1-52.md,out/csv/1-52.csv,21,3077
+1-53,GPIO Port B MUX 2 (GPBMUX2) Register Field Descriptions,110,112,out/raw/1-53.md,out/csv/1-53.csv,21,3053
+1-54,GPIO Port C MUX 1 (GPCMUX1) Register Field Descriptions,112,113,out/raw/1-54.md,out/csv/1-54.csv,19,2446
+1-55,GPIO Port C MUX 2 (GPCMUX2) Register Field Descriptions,113,115,out/raw/1-55.md,out/csv/1-55.csv,13,1623
+1-56,GPIO Port A Qualification Control (GPACTRL) Register Field Descriptions,115,116,out/raw/1-56.md,out/csv/1-56.csv,7,1268
+1-57,GPIO Port B Qualification Control (GPBCTRL) Register Field Descriptions,116,117,out/raw/1-57.md,out/csv/1-57.csv,7,1405
+1-58,GPIO Port A Qualification Select 1 (GPAQSEL1) Register Field Descriptions,117,117,out/raw/1-58.md,out/csv/1-58.csv,4,1148
+1-59,GPIO Port A Qualification Select 2 (GPAQSEL2) Register Field Descriptions,117,118,out/raw/1-59.md,out/csv/1-59.csv,4,1187
+1-60,GPIO Port B Qualification Select 1 (GPBQSEL1) Register Field Descriptions,118,118,out/raw/1-60.md,out/csv/1-60.csv,4,1150
+1-61,GPIO Port B Qualification Select 2 (GPBQSEL2) Register Field Descriptions,118,119,out/raw/1-61.md,out/csv/1-61.csv,6,1600
+1-62,GPIO Port A Direction (GPADIR) Register Field Descriptions,119,119,out/raw/1-62.md,out/csv/1-62.csv,6,1032
+1-63,GPIO Port B Direction (GPBDIR) Register Field Descriptions,119,120,out/raw/1-63.md,out/csv/1-63.csv,5,814
+1-64,GPIO Port C Direction (GPCDIR) Register Field Descriptions,120,120,out/raw/1-64.md,out/csv/1-64.csv,6,1422
+1-65,GPIO Port A Internal Pullup Disable (GPAPUD) Register Field Descriptions,120,121,out/raw/1-65.md,out/csv/1-65.csv,6,927
+1-66,GPIO Port B Internal Pullup Disable (GPBPUD) Register Field Descriptions,121,121,out/raw/1-66.md,out/csv/1-66.csv,5,758
+1-67,GPIO Port C Internal Pullup Disable (GPCPUD) Register Field Descriptions,121,122,out/raw/1-67.md,out/csv/1-67.csv,6,1734
+1-68,GPIO Port A Data (GPADAT) Register Field Descriptions,122,123,out/raw/1-68.md,out/csv/1-68.csv,6,1385
+1-69,GPIO Port B Data (GPBDAT) Register Field Descriptions,123,123,out/raw/1-69.md,out/csv/1-69.csv,5,1244
+1-70,GPIO Port C Data (GPCDAT) Register Field Descriptions,123,124,out/raw/1-70.md,out/csv/1-70.csv,7,1267
+1-71,GPIO Port A Set (GPASET) Register Field Descriptions,124,124,out/raw/1-71.md,out/csv/1-71.csv,2,428
+1-72,GPIO Port A Clear (GPACLEAR) Register Field Descriptions,124,124,out/raw/1-72.md,out/csv/1-72.csv,2,427
+1-73,GPIO Port A Toggle (GPATOGGLE) Register Field Descriptions,124,125,out/raw/1-73.md,out/csv/1-73.csv,6,1025
+1-74,GPIO Port B Set (GPBSET) Register Field Descriptions,125,125,out/raw/1-74.md,out/csv/1-74.csv,2,425
+1-75,GPIO Port B Clear (GPBCLEAR) Register Field Descriptions,125,125,out/raw/1-75.md,out/csv/1-75.csv,2,427
+1-76,GPIO Port B Toggle (GPBTOGGLE) Register Field Descriptions,125,126,out/raw/1-76.md,out/csv/1-76.csv,5,922
+1-77,GPIO Port C Set (GPCSET) Register Field Descriptions,126,126,out/raw/1-77.md,out/csv/1-77.csv,3,449
+1-78,GPIO Port C Clear (GPCCLEAR) Register Field Descriptions,126,126,out/raw/1-78.md,out/csv/1-78.csv,3,451
+1-79,GPIO Port C Toggle (GPCTOGGLE) Register Field Descriptions,126,127,out/raw/1-79.md,out/csv/1-79.csv,4,653
+1-80,GPIO XINTn Interrupt Select (GPIOXINTnSEL)(1) Register Field Descriptions,127,127,out/raw/1-80.md,out/csv/1-80.csv,3,735
+1-81,XINT1/XINT2 Interrupt Select and Configuration Registers,127,127,out/raw/1-81.md,out/csv/1-81.csv,3,114
+1-82,GPIO XINT3 - XINT7 Interrupt Select (GPIOXINTnSEL) Register Field Descriptions(1),127,127,out/raw/1-82.md,out/csv/1-82.csv,3,600
+1-83,XINT3 - XINT7 Interrupt Select and Configuration Registers,127,128,out/raw/1-83.md,out/csv/1-83.csv,6,232
+1-84,GPIO XNMI Interrupt Select (GPIOXNMISEL) Register Field Descriptions,128,128,out/raw/1-84.md,out/csv/1-84.csv,7,1027
+1-85,GPIO Low Power Mode Wakeup Select (GPIOLPMSEL) Register Field Descriptions,128,129,out/raw/1-85.md,out/csv/1-85.csv,2,1200
+1-86,Peripheral Frame 0 Registers(1),129,129,out/raw/1-86.md,out/csv/1-86.csv,1,980
+1-87,Peripheral Frame 1 Registers,129,130,out/raw/1-87.md,out/csv/1-87.csv,2,1396
+1-88,Peripheral Frame 2 Registers,130,130,out/raw/1-88.md,out/csv/1-88.csv,1,609
+1-89,Peripheral Frame 3 Registers,130,131,out/raw/1-89.md,out/csv/1-89.csv,2,1110
+1-90,Access to EALLOW-Protected Registers,131,131,out/raw/1-90.md,out/csv/1-90.csv,1,927
+1-91,EALLOW-Protected Device Emulation Registers,131,131,out/raw/1-91.md,out/csv/1-91.csv,1,203
+1-92,EALLOW-Protected Flash/OTP Configuration Registers,131,132,out/raw/1-92.md,out/csv/1-92.csv,1,389
+1-93,EALLOW-Protected Code Security Module (CSM) Registers,132,132,out/raw/1-93.md,out/csv/1-93.csv,1,508
+1-95,"EALLOW-Protected PLL, Clocking, Watchdog, and Low-Power Mode Registers",133,133,out/raw/1-95.md,out/csv/1-95.csv,1,625
+1-96,EALLOW-Protected GPIO MUX Registers,133,134,out/raw/1-96.md,out/csv/1-96.csv,1,1692
+1-97,EALLOW-Protected eCAN Registers,134,134,out/raw/1-97.md,out/csv/1-97.csv,1,968
+1-98,EALLOW-Protected ePWM1 - ePWM6 Registers,134,134,out/raw/1-98.md,out/csv/1-98.csv,1,334
+1-99,XINTF Registers,134,135,out/raw/1-99.md,out/csv/1-99.csv,1,772
+1-100,Device Emulation Registers,135,135,out/raw/1-100.md,out/csv/1-100.csv,3,526
+1-101,DEVICECNF Register Field Descriptions,135,136,out/raw/1-101.md,out/csv/1-101.csv,11,689
+1-102,PARTID Register Field Descriptions,136,136,out/raw/1-102.md,out/csv/1-102.csv,4,543
+1-103,CLASSID Register Description,136,136,out/raw/1-103.md,out/csv/1-103.csv,2,438
+1-104,REVID Register Field Descriptions,136,137,out/raw/1-104.md,out/csv/1-104.csv,4,1286
+1-105,PROTSTART and PROTRANGE Registers,137,137,out/raw/1-105.md,out/csv/1-105.csv,1,678
+1-113,PIE Configuration and Control Registers,153,154,out/raw/1-113.md,out/csv/1-113.csv,2,1575
+1-114,PIE Control Register (PIECTRL) Field Descriptions,154,154,out/raw/1-114.md,out/csv/1-114.csv,4,1121
+1-115,PIE Interrupt Acknowledge Register (PIEACK) Field Descriptions,154,155,out/raw/1-115.md,out/csv/1-115.csv,5,1203
+1-116,PIE Interrupt Enable Register (PIEIERx) Field Descriptions,155,156,out/raw/1-116.md,out/csv/1-116.csv,11,912
+1-117,PIE Interrupt Flag Register (PIEIFRx) Field Descriptions,156,157,out/raw/1-117.md,out/csv/1-117.csv,12,3067
+1-118,Interrupt Flag Register (IFR) — CPU Register Field Descriptions,157,159,out/raw/1-118.md,out/csv/1-118.csv,20,5616
+1-119,Interrupt Enable Register (IER) — CPU Register Field Descriptions,159,161,out/raw/1-119.md,out/csv/1-119.csv,20,3357
+1-120,Debug Interrupt Enable Register (DBGIER) — CPU Register Field Descriptions,161,163,out/raw/1-120.md,out/csv/1-120.csv,20,3069
+1-121,External Interrupt n Control Register (XINTnCR) Field Descriptions,163,164,out/raw/1-121.md,out/csv/1-121.csv,6,902
+1-122,External NMI Interrupt Control Register (XNMICR) Field Descriptions,164,164,out/raw/1-122.md,out/csv/1-122.csv,5,1194
+1-123,XNMICR Register Settings and Interrupt Sources,164,164,out/raw/1-123.md,out/csv/1-123.csv,2,526
+2-17,CPU Register Restored Values,213,214,out/raw/2-17.md,out/csv/2-17.csv,2,3272
+3-1,ePWM Module Control and Status Register Set Grouped by Submodule,223,224,out/raw/3-1.md,out/csv/3-1.csv,1,2864
+3-3,Time-Base Submodule Registers,229,230,out/raw/3-3.md,out/csv/3-3.csv,8,1303
+3-5,Counter-Compare Submodule Registers,237,238,out/raw/3-5.md,out/csv/3-5.csv,1,1178
+3-7,Action-Qualifier Submodule Registers,242,243,out/raw/3-7.md,out/csv/3-7.csv,8,1008
+3-13,Dead-Band Generator Submodule Registers,256,258,out/raw/3-13.md,out/csv/3-13.csv,1,3081

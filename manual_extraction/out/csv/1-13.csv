@@ -1,0 +1,10 @@
+﻿col_1,col_2,col_3,col_4
+Bits,Field,Value,Description (1)
+15,FORCESEC,0 1,Writing a 1 clears the KEY registers and secures the device. A read always returns a zero. Clears the KEY registers and secures the device. The password match flow described in Section 1.2.3.2 must be followed to unsecure the device again.
+14-1,Reserved,,Reserved
+0,SECURE,0 1,Read-only bit that reflects the security state of the device. Device is unsecure (CSM unlocked). Device is secure (CSM locked).
+"SPI-A, SCI-A/B/C",Peripheral Registers,,
+eCAN-A/B,Peripheral Registers,,
+"ePWM1/../6, HRPWM1/../6, eCAP1/../6, eQEP1/2",Peripheral Registers,,
+McBSP-A/B,Peripheral Registers,,
+12-Bit ADC,ADC Registers,,

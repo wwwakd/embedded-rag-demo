@@ -1,0 +1,5 @@
+﻿col_1,col_2,col_3,col_4
+Bit,Field,Value,Description (1) (2) (3)
+15-1,Reserved,,
+0,ENPIPE,0 1,"Enable Flash Pipeline Mode Bit. Flash pipeline mode is active when this bit is set. The pipeline mode improves performance of instruction fetches by pre-fetching instructions. See Section 1.1.3.2 for more information. When pipeline mode is enabled, the flash wait states (paged and random) must be greater than zero. On flash devices, ENPIPE affects fetches from flash and OTP. Flash Pipeline mode is not active. (default) Flash Pipeline mode is active."
+Reserved,PWR,,

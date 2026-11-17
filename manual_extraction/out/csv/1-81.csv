@@ -1,0 +1,4 @@
+﻿col_1,col_2,col_3,col_4
+n,Interrupt,Interrupt Select Register,Configuration Register
+1,XINT1,GPIOXINT1SEL,XINT1CR
+2,XINT2,GPIOXINT2SEL,XINT2CR

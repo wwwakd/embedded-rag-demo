@@ -1,0 +1,5 @@
+﻿col_1,col_2,col_3,col_4
+Bits,Field,Value,Description (1)
+15-8,Reserved,,Reserved
+7-0,WDKEY,0x55 + 0xAA Other value,"Refer to Table 1-26 for examples of different WDKEY write sequences. Writing 0x55 followed by 0xAA to WDKEY causes the WDCNTR bits to be cleared. Writing any value other than 0x55 or 0xAA causes no action to be generated. If any value other than 0xAA is written after 0x55, then the sequence must restart with 0x55. Reads from WDKEY return the value of the WDCR register."
+WDFLAG,WDDIS,WDCHK,WDPS

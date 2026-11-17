@@ -1,0 +1,8 @@
+﻿col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8
+Bits,Field,Value,Description (1),,,,
+15-5,Reserved,,Reserved,,,,
+4-0,GPIOSEL,00000 00001 . . . 11110 11111,Select which port A GPIO signal (GPIO0 - GPIO31) will be used as the XNMI interrupt source. In addition you can configure the interrupt in the XNMICR register described in Section 1.6.5. Select the GPIO0 pin as the XNMI interrupt source (default) Select the GPIO1 pin as the XNMI interrupt source . . . Select the GPIO30 pin as the XNMI interrupt source Select the GPIO31 pin as the XNMI interrupt source,,,,
+GPIO31,GPIO30,GPIO29,GPIO28,GPIO27,GPIO26,GPIO25,GPIO24
+GPIO23,GPIO22,GPIO21,GPIO20,GPIO19,GPIO18,GPIO17,GPIO16
+GPIO15,GPIO14,GPIO13,GPIO12,GPIO11,GPIO10,GPIO9,GPIO8
+GPIO7,GPIO6,GPIO5,GPIO4,GPIO3,GPIO2,GPIO1,GPIO0

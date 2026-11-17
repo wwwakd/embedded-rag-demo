@@ -1,0 +1,12 @@
+﻿col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8
+Bits,Field,Description,,,,,
+15-8,Reserved,Reserved,,,,,
+7,INTx.8,These register bits individually enable an interrupt within a group and behave very much like the core interrupt enable register. Setting a bit to 1 enables the servicing of the respective interrupt. Setting a bit to 0 disables the servicing of the interrupt. x = 1 to 12. INTx means CPU INT1 to INT12,,,,,
+6,INTx.7,,,,,,
+5,INTx.6,,,,,,
+4,INTx.5,,,,,,
+3,INTx.4,,,,,,
+2,INTx.3,,,,,,
+1,INTx.2,,,,,,
+0,INTx.1,,,,,,
+INTx.8,INTx.7,INTx.6,INTx.5,INTx.4,INTx.3,INTx.2,INTx.1

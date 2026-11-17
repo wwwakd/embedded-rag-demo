@@ -1,0 +1,5 @@
+﻿col_1,col_2,col_3,col_4
+Bit,Field,Value,Description (1) (2)
+15-9,Reserved,0,Reserved
+8-0,STDBYWAIT,111111111,This register should be left in its default state. Bank and Pump Sleep To Standby Wait Count. 511 SYSCLKOUT cycles (default)
+Reserved,ACTIVEWAIT,,

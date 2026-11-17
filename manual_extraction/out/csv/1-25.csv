@@ -1,0 +1,7 @@
+﻿col_1,col_2,col_3,col_4
+Bits,Field,Value,Description (1)
+15,WDINTE,0 1,Watchdog interrupt enable The watchdog interrupt is not allowed to wake the device from STANDBY. (default) The watchdog is allowed to wake the device from STANDBY. The watchdog interrupt must also be enabled in the SCSR Register.
+14-8,Reserved,,Reserved
+7-2,QUALSTDBY,000000 000001 . . . 111111,Select number of OSCCLK clock cycles to qualify the selected GPIO inputs that wake the device from STANDBY mode. This qualification is only used when in STANDBY mode. The GPIO signals that can wake the device from STANDBY are specified in the GPIOLPMSEL register. 2 OSCCLKs (default) 3 OSCCLKs . . . 65 OSCCLKs
+1-0,LPM(2),00 01 10 11,These bits set the low power mode for the device. Set the low power mode to IDLE (default) Set the low power mode to STANDBY Set the low power mode to HALT (3) Set the low power mode to HALT (3)
+1,0,1,

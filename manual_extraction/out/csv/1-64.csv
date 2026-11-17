@@ -1,0 +1,7 @@
+﻿col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8
+Bits,Field,Value,Description (1),,,,
+31-0,GPIO87-GPIO64,0 1,Controls direction of GPIO pin when GPIO mode is selected. Reading the register returns the current value of the register setting Configures the GPIO pin as an input. (default) Configures the GPIO pin as an output,,,,
+GPIO31,GPIO30,GPIO29,GPIO28,GPIO27,GPIO26,GPIO25,GPIO24
+GPIO23,GPIO22,GPIO21,GPIO20,GPIO19,GPIO18,GPIO17,GPIO16
+GPIO15,GPIO14,GPIO13,GPIO12,GPIO11,GPIO10,GPIO9,GPIO8
+GPIO7,GPIO6,GPIO5,GPIO4,GPIO3,GPIO2,GPIO1,GPIO0

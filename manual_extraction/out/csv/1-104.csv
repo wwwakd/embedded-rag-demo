@@ -1,0 +1,5 @@
+﻿col_1,col_2,col_3,col_4
+Bits,Field,Value,Description
+15-0,REVID,0x0000,(1)These 16 bits specify the silicon revision number for the particular part. This number always starts with 0x0000 on the first revision of the silicon and is incremented on any subsequent revisions. Silicon Revision 0 - TMX
+Bits,Field,Value,Description
+,,0x0001,Silicon Revision 1 - TMS

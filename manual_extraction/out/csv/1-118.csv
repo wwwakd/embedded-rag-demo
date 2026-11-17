@@ -1,0 +1,21 @@
+﻿col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8
+Bits,Field,Value,Description,,,,
+15,RTOSINT,0 1,Real-time operating system flag. RTOSINT is the flag for RTOS interrupts. No RTOS interrupt is pending At least one RTOS interrupt is pending. Write a 0 to this bit to clear it to 0 and clear the interrupt request,,,,
+14,DLOGINT,0 1,Data logging interrupt fag. DLOGINT is the flag for data logging interrupts. No DLOGINT is pending At least one DLOGINT interrupt is pending. Write a 0 to this bit to clear it to 0 and clear the interrupt request,,,,
+13,INT14,0 1,Interrupt 14 flag. INT14 is the flag for interrupts connected to CPU interrupt level INT14. No INT14 interrupt is pending At least one INT14 interrupt is pending. Write a 0 to this bit to clear it to 0 and clear the interrupt request,,,,
+12,INT13,0 1,Interrupt 13 flag. INT13 is the flag for interrupts connected to CPU interrupt level INT13I. No INT13 interrupt is pending At least one INT13 interrupt is pending. Write a 0 to this bit to clear it to 0 and clear the interrupt request,,,,
+11,INT12,0 1,Interrupt 12 flag. INT12 is the flag for interrupts connected to CPU interrupt level INT12. No INT12 interrupt is pending At least one INT12 interrupt is pending. Write a 0 to this bit to clear it to 0 and clear the interrupt request,,,,
+10,INT11,0 1,Interrupt 11 flag. INT11 is the flag for interrupts connected to CPU interrupt level INT11. No INT11 interrupt is pending At least one INT11 interrupt is pending. Write a 0 to this bit to clear it to 0 and clear the interrupt request,,,,
+9,INT10,0 1,Interrupt 10 flag. INT10 is the flag for interrupts connected to CPU interrupt level INT10. No INT10 interrupt is pending At least one INT6 interrupt is pending. Write a 0 to this bit to clear it to 0 and clear the interrupt request,,,,
+Bits,Field,Value,Description,,,,
+8,INT9,0 1,Interrupt 9 flag. INT9 is the flag for interrupts connected to CPU interrupt level INT6. No INT9 interrupt is pending At least one INT9 interrupt is pending. Write a 0 to this bit to clear it to 0 and clear the interrupt request,,,,
+7,INT8,0 1,Interrupt 8 flag. INT8 is the flag for interrupts connected to CPU interrupt level INT6. No INT8 interrupt is pending At least one INT8 interrupt is pending. Write a 0 to this bit to clear it to 0 and clear the interrupt request,,,,
+6,INT7,0 1,Interrupt 7 flag. INT7 is the flag for interrupts connected to CPU interrupt level INT7. No INT7 interrupt is pending At least one INT7 interrupt is pending. Write a 0 to this bit to clear it to 0 and clear the interrupt request,,,,
+5,INT6,0 1,Interrupt 6 flag. INT6 is the flag for interrupts connected to CPU interrupt level INT6. No INT6 interrupt is pending At least one INT6 interrupt is pending. Write a 0 to this bit to clear it to 0 and clear the interrupt request,,,,
+4,INT5,0 1,Interrupt 5 flag. INT5 is the flag for interrupts connected to CPU interrupt level INT5. No INT5 interrupt is pending At least one INT5 interrupt is pending. Write a 0 to this bit to clear it to 0 and clear the interrupt request,,,,
+3,INT4,0 1,Interrupt 4 flag. INT4 is the flag for interrupts connected to CPU interrupt level INT4. No INT4 interrupt is pending At least one INT4 interrupt is pending. Write a 0 to this bit to clear it to 0 and clear the interrupt request,,,,
+2,INT3,0 1,Interrupt 3 flag. INT3 is the flag for interrupts connected to CPU interrupt level INT3. No INT3 interrupt is pending At least one INT3 interrupt is pending. Write a 0 to this bit to clear it to 0 and clear the interrupt request,,,,
+1,INT2,0 1,Interrupt 2 flag. INT2 is the flag for interrupts connected to CPU interrupt level INT2. No INT2 interrupt is pending At least one INT2 interrupt is pending. Write a 0 to this bit to clear it to 0 and clear the interrupt request,,,,
+0,INT1,0 1,Interrupt 1 flag. INT1 is the flag for interrupts connected to CPU interrupt level INT1. No INT1 interrupt is pending At least one INT1 interrupt is pending. Write a 0 to this bit to clear it to 0 and clear the interrupt request,,,,
+RTOSINT,DLOGINT,INT14,INT13,INT12,INT11,INT10,INT9
+INT8,INT7,INT6,INT5,INT4,INT3,INT2,INT1

@@ -1,0 +1,4 @@
+﻿col_1,col_2,col_3,col_4,col_5
+ame,Address,Size (x16),Description,
+Reserved,TRST,Reserved,ENPROT,Reserved
+Reserved,XRS,Res,VMAPS,Reserved

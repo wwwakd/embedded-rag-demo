@@ -1,0 +1,8 @@
+﻿col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8
+Bits,Field,Value,Description (1),,,,
+31-24,QUALPRD3,0x00 0x01 0x02 . . . 0xFF,Specifies the sampling period for pins GPIO56 to GPIO63 Sampling Period = T (2) SYSCLKOUT Sampling Period = 2 × T SYSCLKOUT Sampling Period = 4 × T SYSCLKOUT . . . Sampling Period = 510 × T SYSCLKOUT,,,,
+23-16,QUALPRD2,0x00 0x01 0x02 . . . 0xFF,Specifies the sampling period for pins GPIO48 to GPIO55 Sampling Period = T (2) SYSCLKOUT Sampling Period = 2 × T SYSCLKOUT Sampling Period = 4 × T SYSCLKOUT . . . Sampling Period = 510 × T SYSCLKOUT,,,,
+15-8,QUALPRD1,0x00 0x01 0x02 . . . 0xFF,Specifies the sampling period for pins GPIO40 to GPIO47 Sampling Period = T (2) SYSCLKOUT Sampling Period = 2 × T SYSCLKOUT Sampling Period = 4 × T SYSCLKOUT . . . Sampling Period = 510 × T SYSCLKOUT,,,,
+7-0,QUALPRD0,0x00 0x01 0x02 . . . 0xFF,Specifies the sampling period for pins GPIO32 to GPIO39 Sampling Period = T (2) SYSCLKOUT Sampling Period = 2 × T SYSCLKOUT Sampling Period = 4 × T SYSCLKOUT . . . Sampling Period = 510 × T SYSCLKOUT,,,,
+GPIO15,GPIO14,GPIO13,GPIO12,GPIO11,GPIO10,GPIO9,GPIO8
+GPIO7,GPIO6,GPIO5,GPIO4,GPIO3,GPIO2,GPIO1,GPIO0

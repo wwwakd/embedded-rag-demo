@@ -1,0 +1,9 @@
+﻿col_1,col_2,col_3,col_4
+Register Name,Address offset,Shadowed,Description
+TBCLK,Action-qualifier (AQ) Module AQCTLA[15:0] Action-qualifier control A AQCTLB[15:0] Action-qualifier control B AQSFRC[15:0] Action-qualifier S/W force AQCSFRC[3:0] (shadow) continuous S/W force AQCSFRC[3:0] (active) continuous S/W force,EPWMA,
+CTR = PRD,,EPWMB,
+CTR = Zero,,,
+CTR = CMPA,,,
+CTR = CMPB,,,
+CTR dir _,,,
+,,,

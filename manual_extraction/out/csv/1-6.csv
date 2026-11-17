@@ -1,0 +1,5 @@
+﻿col_1,col_2,col_3,col_4
+Bits,Field,Value,Description (1) (2)
+15-9 R,eserved,0,Reserved
+8-0 A,CTIVEWAIT,111111111,This register should be left in its default state. Bank and Pump Standby To Active Wait Count: 511 SYSCLKOUT cycles (default)
+Reserved,PAGEWAIT,Reserved,RANDWAIT

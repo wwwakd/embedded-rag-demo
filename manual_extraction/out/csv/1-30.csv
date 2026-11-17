@@ -1,0 +1,12 @@
+﻿col_1,col_2,col_3,col_4
+Bits,Field,Value,Description (1)
+15-8,Reserved,,Reserved
+7,WDFLAG,0 1,Watchdog reset status flag bit The reset was caused either by the XRS pin or because of power-up. The bit remains latched until you write a 1 to clear the condition. Writes of 0 are ignored. Indicates a watchdog reset (WDRST) generated the reset condition. .
+6,WDDIS,0 1,"Watchdog disable. On reset, the watchdog module is enabled. Enables the watchdog module. WDDIS can be modified only if the WDOVERRIDE bit in the SCSR register is set to 1. (default) Disables the watchdog module."
+Bits,Field,Value,Description (1)
+5-3,WDCHK,"0,0,0 other","Watchdog check. You must ALWAYS write 1,0,1 to these bits whenever a write to this register is performed unless the intent is to reset the device via software. Writing any other value causes an immediate device reset or watchdog interrupt to be taken. Note that this will happen even if the watchdog module is disabled. These three bits always read back as zero (0, 0, 0). This feature can be used to generate a software reset of the DSP."
+2-0,WDPS,000 001 010 011 100 101 110 111,Watchdog pre-scale. These bits configure the watchdog counter clock (WDCLK) rate relative to OSCCLK/512: WDCLK = OSCCLK/512/1 (default) WDCLK = OSCCLK/512/1 WDCLK = OSCCLK/512/2 WDCLK = OSCCLK/512/4 WDCLK = OSCCLK/512/8 WDCLK = OSCCLK/512/16 WDCLK = OSCCLK/512/32 WDCLK = OSCCLK/512/64
+16-bit timer TDDR,divide-down H:TDDR,,
+INT1 to INT12 28x CPU INT13 INT14,TINT0 PIE CPU-TIMER 0 TINT1 CPU-TIMER 1 XINT13 TINT2 CPU-TIMER 2 (Reserved for DSP/BIOS),,
+,,CPU-TIMER 2 (Reserved for DSP/BIOS),
+,,,

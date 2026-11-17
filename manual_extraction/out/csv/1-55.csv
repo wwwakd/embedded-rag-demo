@@ -1,0 +1,14 @@
+﻿col_1,col_2,col_3,col_4
+Bit,Field,Value,Description
+31:16,Reserved,,
+15:14,GPIO87,00 or 01 10 or 11,Configure this pin as: GPIO 87 - general purpose I/O 87 (default) XA15 - External interface address line 15 (O)
+13:12,GPIO86,00 or 01 10 or 11,Configure this pin as: GPIO 86 - general purpose I/O 86 (default) XA14 - External interface address line 14 (O)
+11:10,GPIO85,00 or 01 10 or 11,Configure this pin as: GPIO 85 - general purpose I/O 85 (default) XA13 - External interface address line 13 (O)
+Bit,Field,Value,Description
+9:8,GPIO84,00 or 01 10 or 11,Configure this pin as: GPIO 84 - general purpose I/O 84 (default) XA12 - External interface address line 12 (O)
+7:6,GPIO83,00 or 01 10 or 11,Configure this pin as: GPIO 83 - general purpose I/O 83 (default) XA11 - External interface address line 11 (O)
+5:4,GPIO82,00 or 01 10 or 11,Configure this pin as: GPIO 82 - general purpose I/O 82 (default) XA10 - External interface address line 10 (O)
+3:2,GPIO81,00 or 01 10 or 11,Configure this pin as: GPIO 81 - general purpose I/O 81 (default) XA9 - External interface address line 9 (O)
+1:0,GPIO80,00 or 01 10 or 11,Configure this pin as: GPIO 80 - general purpose I/O 80(default) XA8 - External interface address line 8 (O)
+QUALPRD3,QUALPRD2,,
+QUALPRD1,QUALPRD0,,

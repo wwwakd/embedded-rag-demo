@@ -1,0 +1,22 @@
+﻿col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8
+Bit,Field,Value,Description,,,,
+31:30,GPIO63,00 01 10 or 11,Configure this pin as: GPIO 63 - general purpose I/O 63 (default) SCITXDC - SCI-C transmit data (O) XD16 - External interface data line 16 (I/O),,,,
+29:28,GPIO62,00 01 10 or 11,Configure this pin as: GPIO 62 - general purpose I/O 62 (default) SCIRXDC - SCI-C receive data (I) XD17 - External interface data line 17 (I/O),,,,
+27:26,GPIO61,00 01 10 or 11,Configure this pin as: GPIO 61 - general purpose I/O 61 (default) MFSRB - McBSP-B receive frame synch (I/O) XD18 - External interface data line 18 (I/O),,,,
+25:24,GPIO60,00 01 10 or 11,Configure this pin as: GPIO 60 - general purpose I/O 60 (default) MCLKRB - McBSP-B receive clock (I/O) XD19 - External interface data line 19 (I/O),,,,
+23:22,GPIO59,00 01 10 or 11,Configure this pin as: GPIO 59 - general purpose I/O 59 (default) MFSRA - McBSP-A receive frame synch (I/O) XD20 - External interface data line 20 (I/O),,,,
+Bit,Field,Value,Description,,,,
+21:20,GPIO58,00 01 10 or 11,Configure this pin as: GPIO 58 - general purpose I/O 58 (default) MCLKRA - McBSP-A receive clock (I/O) XD21 - External interface data line 21 (I/O),,,,
+19:18,GPIO57,00 01 10 or 11,Configure this pin as: GPIO 57 - general purpose I/O 57 (default) SPISTEA - SPI-A slave transmit enable (I/O) XD22 - External interface data line 22 (I/O),,,,
+17:16,GPIO56,00 01 10 or 11,Configure this pin as: GPIO 56 - general purpose I/O 56 (default) SPICLKA - SPI-A clock input/output (I/O) XD23 - External interface data line 23 (I/O),,,,
+15:14,GPIO55,00 01 10 or 11,"Configure this pin as: GPIO 55 - general purpose I/O 55 (default) SPISOMIA - SPI-A slave out, master in (I/O) XD24 - External interface data line 24 (I/O)",,,,
+13:12,GPIO54,00 01 10 or 11,"Configure this pin as: GPIO 54 - general purpose I/O 54 (default) SPISIMOA - SPI slave in, master out (I/O) XD25 - External interface data line 25 (I/O)",,,,
+11:10,GPIO53,00 01 10 or 11,Configure this pin as: GPIO 53 - general purpose I/O 53 (default) EQEP1I - Enhanced QEP1 index (I/O) XD26 - External interface data line 26 (I/O),,,,
+9:8,GPIO52,00 01 10 or 11,Configure this pin as: GPIO 52 - general purpose I/O 52 (default) EQEP1S - Enhanced QEP1 strobe (I/O) XD27External interface data line 27 (I/O),,,,
+7:6,GPIO51,00 01 10 or 11,Configure this pin as: GPIO 51 - general purpose I/O 51 (default) EQEP1B - Enhanced QEP1 input B (I) XD28 - External interface data line 28 (I/O),,,,
+5:4,GPIO50,00 01 10 or 11,Configure this pin as: GPIO 50 - general purpose I/O 50 (default) EQEP1A - Enhanced QEP1 input A (I) XD29 - External interface data line 29 (I/O),,,,
+3:2,GPIO49,00 01 10 or 11,Configure this pin as: GPIO 49 - general purpose I/O 49 (default) ECAP6 - Enhanced Capture input/output 6 (I/O) XD30 - External interface data line 30 (I/O),,,,
+Bit,Field,Value,Description,,,,
+1:0,GPIO48,00 01 10 or 11,Configure this pin as: GPIO 48 - general purpose I/O 48 (default) ECAP5 - Enhanced Capture input/output 5 (I/O) XD31 - External interface data line 31 (I/O),,,,
+GPIO79,GPIO78,GPIO77,GPIO76,GPIO75,GPIO74,GPIO73,GPIO72
+GPIO71,GPIO70,GPIO69,GPIO68,GPIO67,GPIO66,GPIO65,GPIO64

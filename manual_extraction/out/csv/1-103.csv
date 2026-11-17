@@ -1,0 +1,3 @@
+﻿col_1,col_2,col_3,col_4,col_5
+Bits,Field,Value,Description,
+15-8 7-0,PARTTYPE CLASSNO,0x00 0x00EF 0x00E8,"These 8 bits specify the type of device such as flash-based. Flash-based device All other values are reserved. These 16 bits specify the class for the particular part. F28335, F28334, TMS320F2833x Floating Point Class device F28332 F28235, F28234, TMS320F2823x Fixed Point Class device F28232",

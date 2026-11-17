@@ -1,0 +1,22 @@
+﻿col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8
+Bits,Field,Value,Description (1),,,,
+31-30,GPIO31,00 01 10 or 11,Configure the GPIO31 pin as: GPIO31 - General purpose I/O 31 (default) (I/O) CANTXA - eCAN-A transmit (O) XA17 - External interface address line 17 (O),,,,
+29-28,GPIO30,00 01 10 or 11,Configure the GPIO30 pin as: GPIO30 (I/O) General purpose I/O 30 (default) (I/O) CANRXA - eCAN-A receive (I) XA18 - External interface address line 18,,,,
+27-26,GPIO29,00 01 10 or 11,Configure the GPIO29 pin as: GPIO29 (I/O) General purpose I/O 29 (default) (I/O) SCITXDA - SCI-A transmit. (O) XA19 - External Interface address line 19 (O),,,,
+25-24,GPIO28,00 01 10 or 11,Configure the GPIO28 pin as: GPIO28 (I/O) General purpose I/O 28 (default) (I/O) SCIRXDA - SCI-A receive (I) XZCS6 - External interface zone 6 chip select (O),,,,
+Bits,Field,Value,Description (1),,,,
+23-22,GPIO27,00 01 10 11,Configure the GPIO27 pin as: GPIO27 - General purpose I/O 27 (default) (I/O) ECAP4 - eCAP4. (I/O) EQEP2S - eQEP2 strobe (I/O) MFSXB - McBSP-B Transmit Frame Synch (I/O),,,,
+21-20,GPIO26,00 01 10 11,Configure the GPIO26 pin as: GPIO26 - General purpose I/O 26 (default) (I/O) ECAP3 - eCAP3. (I/O) EQEP2I - eQEP2 index. (I/O) MCLKXB - McBSP-B Transmit Clock (I/O),,,,
+19-18,GPIO25,00 01 10 11,Configure the GPIO25 pin as: GPIO25 - General purpose I/O 25 (default) (I/O) ECAP2 - eCAP2 (I/O) EQEP2B - eQEP2 input B (I) MDRB - McBSP-B data receive (O),,,,
+17-16,GPIO24,00 01 10 11,Configure the GPIO24 pin as: GPIO24 - General purpose I/O 24 (default) (I/O) ECAP1 - eCAP1 (I/O) EQEP2A - eQEP2 input A. (I) MDXB - McBSP-B data transmit (O),,,,
+15-14,GPIO23,00 01 10 11,Configure the GPIO23 pin as: GPIO23 - General purpose I/O 23 (default) (I/O) EQEP1I - eQEP1 index (I/O) MFSXA - McBSP-A transmit frame synch (I/O) SCIRXDB - SCI-B receive (I/O),,,,
+13-12,GPIO22,00 01 10 11,Configure the GPIO22 pin as: GPIO22 - General purpose I/O 22 (default) (I/O) EQEP1S - eQEP1 strobe (I/O) MCLKXA - McBSP-A transmit clock (I/O) SCITXDB - SCI-B transmit (O),,,,
+11-10,GPIO21,00 01 10 11,Configure the GPIO21 pin as: GPIO21 - General purpose I/O 21 (default) (I/O) EQEP1B - eQEP1 input B (I) MDRA - McBSP-A data receive (I) CANRXB - eCAN-B receive (I),,,,
+9-8,GPIO20,00 01 10 11,Configure the GPIO20 pin as: GPIO20 - General purpose I/O 22 (default) (I/O) EQEP1A - eQEP1 input A (I) MDXA - McBSP-A data transmit (O) CANTXB - eCAN-B transmit (O),,,,
+7-6,GPIO19,00 01 10 11,Configure the GPIO19 pin as: GPIO19 - General purpose I/O 19 (default) (I/O) SPISTEA - SPI-A slave transmit enable (I/O) SCIRXDB - SCI-B receive (I) CANTXA - eCAN-A Transmit (O),,,,
+Bits,Field,Value,Description (1),,,,
+5-4,GPIO18,00 01 10 11,Configure the GPIO18 pin as: GPIO18 - General purpose I/O 18 (default) (I/O) SPICLKA - SPI-A clock (I/O) SCITXDB - SCI-B transmit. (O) CANRXA - eCAN-A Receive (I),,,,
+3-2,GPIO17,00 01 10 11,"Configure the GPIO17 pin as: GPIO17 - General purpose I/O 17 (default) (I/O) SPISOMIA - SPI-A slave-out, master-in (I/O) CANRXB eCAN-B receive (I) TZ6 - Trip zone 6 (I)",,,,
+1-0,GPIO16,00 01 10 11,"Configure the GPIO16 pin as: GPIO16 - General purpose I/O 16 (default) (I/O) SPISIMOA - SPI-A slave-in, master-out (I/O), CANTXB - eCAN-B transmit. (O) TZ5 - Trip zone 5 (I)",,,,
+GPIO47,GPIO46,GPIO45,GPIO44,GPIO43,GPIO42,GPIO41,GPIO40
+GPIO39,GPIO38,GPIO37,GPIO36,GPIO35,GPIO34,GPIO33,GPIO32

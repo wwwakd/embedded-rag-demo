@@ -1,0 +1,6 @@
+﻿col_1,col_2,col_3,col_4
+Bits,Field,Value,Description
+15-4,Reserved,,Reads return zero; writes have no effect.
+3-2,Polarity,00 01 10 11,This read/write bit determines whether interrupts are generated on the rising edge or the falling edge of the signal on the pin. Interrupt generated on a falling edge (high-to-low transition) Interrupt generated on a rising edge low-to-high transition) Interrupt is generated on a falling edge (high to low transition) Interrupt generated on both a falling edge and a rising edge (high to low and low to high transition)
+1,Select,0 1,Select the source for INT13 Timer 1 connected To INT13 XNMI XINT13 connected To INT13 _
+0,Enable,0 1,This read/write bit enables or disables external interrupt NMI Disable XNMI interrupt Enable XNMI interrupt

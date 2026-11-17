@@ -1,0 +1,4 @@
+﻿col_1,col_2,col_3,col_4
+Bits,Field,Value,Description (2)
+15-5,Reserved,,Reserved
+4-0,GPIOXINTnSEL,00000 00001 . . . 11110 11111,"Select the port B GPIO signal (GPIO32 - GPIO63) that will be used as the XINTn interrupt source. In addition, you can configure the interrupt in the XINTnCR register described in Section 1.6.5. Select the GPIO32 pin as the XINTn interrupt source (default) Select the GPIO33 pin as the XINTn interrupt source . . . Select the GPIO62 pin as the XINTn interrupt source Select the GPIO63 pin as the XINTn interrupt source"

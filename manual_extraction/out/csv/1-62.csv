@@ -1,0 +1,7 @@
+﻿col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8
+Bits,Field,Value,Description (1),,,,
+31-0,GPIO31-GPIO0,0 1,"Controls direction of GPIO Port A pins when the specified pin is configured as a GPIO in the appropriate GPAMUX1 or GPAMUX2 register. Configures the GPIO pin as an input. (default) Configures the GPIO pin as an output The value currently in the GPADAT output latch is driven on the pin. To initialize the GPADAT latch prior to changing the pin from an input to an output, use the GPASET, GPACLEAR, and GPATOGGLE registers.",,,,
+GPIO63,GPIO62,GPIO61,GPIO60,GPIO59,GPIO58,GPIO57,GPIO56
+GPIO55,GPIO54,GPIO53,GPIO52,GPIO51,GPIO50,GPIO49,GPIO48
+GPIO47,GPIO46,GPIO45,GPIO44,GPIO43,GPIO42,GPIO41,GPIO40
+GPIO39,GPIO38,GPIO37,GPIO36,GPIO35,GPIO34,GPIO33,GPIO32

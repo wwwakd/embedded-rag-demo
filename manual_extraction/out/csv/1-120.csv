@@ -1,0 +1,21 @@
+﻿col_1,col_2,col_3,col_4
+Bits,Field,Value,Description
+15,RTOSINT,0 1,Real-time operating system interrupt enable. RTOSINT enables or disables the CPU RTOS interrupt. Real-time operating system interrupt is disabled Real-time operating system interrupt is enabled
+14,DLOGINT,. 0 1,Data logging interrupt enable. DLOGINT enables or disables the CPU data logging interrupt Data logging interrupt is disabled Data logging interrupt is enabled
+13,INT14,. 0 1,Interrupt 14 enable. INT14 enables or disables CPU interrupt level INT14 Level INT14 is disabled Level INT14 is enabled
+12,INT13,0 1,Interrupt 13 enable. INT13 enables or disables CPU interrupt level INT13. Level INT13 is disabled Level INT13 is enabled
+11,INT12,0 1,Interrupt 12 enable. INT12 enables or disables CPU interrupt level INT12. Level INT12 is disabled Level INT12 is enabled
+10,INT11,0 1,Interrupt 11 enable. INT11 enables or disables CPU interrupt level INT11. Level INT11 is disabled Level INT11 is enabled
+9,INT10,0 1,Interrupt 10 enable. INT10 enables or disables CPU interrupt level INT10. Level INT10 is disabled Level INT10 is enabled
+8,INT9,0 1,Interrupt 9 enable. INT9 enables or disables CPU interrupt level INT9. Level INT9 is disabled Level INT9 is enabled
+7,INT8,0 1,Interrupt 8 enable. INT8 enables or disables CPU interrupt level INT8. Level INT8 is disabled Level INT8 is enabled
+6,INT7,0 1,Interrupt 7 enable. INT7 enables or disables CPU interrupt level INT77. Level INT7 is disabled Level INT7 is enabled
+5,INT6,0 1,Interrupt 6 enable. INT6 enables or disables CPU interrupt level INT6. Level INT6 is disabled Level INT6 is enabled
+4,INT5,0 1,Interrupt 5 enable.INT5 enables or disables CPU interrupt level INT5. Level INT5 is disabled Level INT5 is enabled
+3,INT4,0,Interrupt 4 enable.INT4 enables or disables CPU interrupt level INT4. Level INT4 is disabled
+Bits,Field,Value,Description
+,,1,Level INT4 is enabled
+2,INT3,0 1,Interrupt 3 enable.INT3 enables or disables CPU interrupt level INT3. Level INT3 is disabled Level INT3 is enabled
+1,INT2,0 1,Interrupt 2 enable.INT2 enables or disables CPU interrupt level INT2. Level INT2 is disabled Level INT2 is enabled
+0,INT1,0 1,Interrupt 1 enable.INT1 enables or disables CPU interrupt level INT1. Level INT1 is disabled Level INT1 is enabled
+Reserved,Polarity,Reserved,Enable

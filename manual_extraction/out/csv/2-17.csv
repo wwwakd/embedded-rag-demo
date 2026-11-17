@@ -1,0 +1,3 @@
+﻿col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8
+Register,Value,,,Register,Value,,
+ACC 0x0000 0000 XT 0x0000 0000 XAR0-XAR7 0x0000 0000 ST0 0x0000 15:10 OVC = 0 9:7 PM = 0 6 V = 0 5 N = 0 4 Z = 0 3 C = 0 2 TC = 0 1 OVM = 0 0 SXM = 0,,,,P 0x0000 0000 RPC 0x00 0000 DP 0x0000 ST1 0x0A0B 15:13 ARP = 0 12 XF = 0 11 M0M1MAP = 1 10 reserved 9 OBJMODE = 1 8 AMODE = 0 7 IDLESTAT = 0 6 EALLOW = 0 5 LOOP = 0 4 SPA = 0 3 VMAP = 1 2 PAGE0 = 0 1 DBGM = 1 0 INTM = 1,,,

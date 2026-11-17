@@ -1,0 +1,4 @@
+﻿col_1,col_2,col_3,col_4
+Bits,Field,Value,Description (2)
+15-5,Reserved,,Reserved
+4-0,GPIOXINTnSEL,00000 00001 . . . 11110 11111,"Select the port A GPIO signal (GPIO0 - GPIO31) that will be used as the XINT1 or XINT2 interrupt source. In addition, you can configure the interrupt in the XINT1CR or XINT2CR registers described in Section 1.6.5. To use XINT2 as ADC start of conversion, enable it in the ADCTRL2 register. The ADCSOC signal is always rising edge sensitive. Select the GPIO0 pin as the XINTn interrupt source (default) Select the GPIO1 pin as the XINTn interrupt source . . . Select the GPIO30 pin as the XINTn interrupt source Select the GPIO31 pin as the XINTn interrupt source"

@@ -1,0 +1,11 @@
+﻿col_1,col_2,col_3,col_4
+Bit,Field,Value,Description
+15:14,Reserved,,Reserved
+13,GPIOINENCLK,0 1,GPIO Input Clock Enable The GPIO module is not clocked. The GPIO module is clocked.
+12,XINTFENCLK,0 1,External Interface (XINTF) Clock Enable The external memory interface is not clocked. The external memory interface is clocked.
+11,DMAENCLK,0 1,DMA Clock Enable The DMA module is not clocked. The DMA module is clocked.
+10,CPUTIMER2ENCLK,0 1,CPU Timer 2 Clock Enable The CPU Timer 2 is not clocked. The CPU Timer 2 is clocked.
+9,CPUTIMER1ENCLK,0 1,CPU Timer 1 Clock Enable The CPU Timer 1 is not clocked. The CPU Timer 1 is clocked.
+8,CPUTIMER0ENCLK,0 1,CPU Timer 0 Clock Enable The CPU Timer 0 is not clocked. The CPU Timer 0 is clocked.
+7:0,Reserved,,Reserved
+Reserved,HSPCLK,,

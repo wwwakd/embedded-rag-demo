@@ -1,0 +1,13 @@
+﻿col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8
+Bits,Field,Description,,,,,
+15-8,Reserved,Reserved,,,,,
+7,INTx.8,"These register bits indicate whether an interrupt is currently active. They behave very much like the CPU interrupt flag register. When an interrupt is active, the respective register bit is set. The bit is cleared when the interrupt is serviced or by writing a 0 to the register bit. This register can also be read to determine which interrupts are active or pending. x = 1 to 12. INTx means CPU INT1 to INT12 The PIEIFR register bit is cleared during the interrupt vector fetch portion of the interrupt processing. Hardware has priority over CPU accesses to the PIEIFR registers.",,,,,
+6,INTx.7,,,,,,
+5,INTx.6,,,,,,
+4,INTx.5,,,,,,
+3,INTx.4,,,,,,
+2,INTx.3,,,,,,
+1,INTx.2,,,,,,
+0,INTx.1,,,,,,
+RTOSINT,DLOGINT,INT14,INT13,INT12,INT11,INT10,INT9
+INT8,INT7,INT6,INT5,INT4,INT3,INT2,INT1

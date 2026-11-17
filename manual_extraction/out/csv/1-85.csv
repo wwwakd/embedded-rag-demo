@@ -1,0 +1,3 @@
+﻿col_1,col_2,col_3,col_4
+Bits,Field,Value,Description (1)
+31-0,GPIO31 - GPIO0,0 1,"Low Power Mode Wakeup Selection. Each bit in this register corresponds to one GPIO port A pin (GPIO0 - GPIO31) as shown in Figure 1-72. If the bit is cleared, the signal on the corresponding pin will have no effect on the HALT and STANDBY low power modes. If the respective bit is set to 1, the signal on the corresponding pin is able to wake the device from both HALT and STANDBY low power modes."

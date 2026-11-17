@@ -1,0 +1,6 @@
+﻿col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8
+Bits,Field,Value,Description,,,,
+15-12,Reserved,,Reserved,,,,
+11-0,PIEACK,bit x = 0 (1) bit x = 1,"Each bit in PIEACK refers to a specific PIE group. Bit 0 refers to interrupts in PIE group 1 that are MUXed into INT1 up to Bit 11, which refers to PIE group 12 which is MUXed into CPU INT12 If a bit reads as a 0, it indicates that the PIE can send an interrupt from the respective group to the CPU. Writes of 0 are ignored. Reading a 1 indicates if an interrupt from the respective group has been sent to the CPU and all other interrupts from the group are currently blocked. Writing a 1 to the respective interrupt bit clears the bit and enables the PIE block to drive a pulse into the CPU interrupt input if an interrupt is pending for that group.",,,,
+,,,,,,,
+INTx.8,INTx.7,INTx.6,INTx.5,INTx.4,INTx.3,INTx.2,INTx.1

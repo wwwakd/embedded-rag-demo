@@ -1,0 +1,22 @@
+﻿col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8
+Bit,Field,Value,Description,,,,
+31:30,GPIO47,00 01 10 or 11,Configure this pin as: GPIO 47 - general purpose I/O 47 (default) Reserved XA7 - External interface (XINTF) address line 7 (O),,,,
+29:28,GPIO46,00 01 10 or 11,Configure this pin as: GPIO 46 - general purpose I/O 46 (default) Reserved XA6 - External interface (XINTF) address line 6 (O),,,,
+27:26,GPIO45,00 01 10 or 11,Configure this pin as: GPIO 45 - general purpose I/O 45 (default) Reserved XA5 - External interface (XINTF) address line 5 (O),,,,
+25:24,GPIO44,00 01 10 or 11,Configure this pin: GPIO 44 - general purpose I/O 44 (default) Reserved XA4 - External interface (XINTF) address line 4 (O),,,,
+Bit,Field,Value,Description,,,,
+23:22,GPIO43,00 01 10 or 11,Configure this pin as: GPIO 43 - general purpose I/O 43 (default) Reserved XA3 - External interface (XINTF) address line 3 (O),,,,
+21:20,GPIO42,00 01 10 or 11,Configure this pin as: GPIO 42 - general purpose I/O 42 (default) Reserved XA2 - External interface (XINTF) address line 2 (O),,,,
+19:18,GPIO41,00 01 10 or 11,Configure this pin as: GPIO 41 - general purpose I/O 41 (default) Reserved XA1 - External interface (XINTF) address line 1 (O),,,,
+17:16,GPIO40,00 01 10 or 11,Configure this pin as: GPIO 40 - general purpose I/O 40 (default) Reserved XA0/XWE1 - External interface (XINTF) address line 1 or external interface write enable strobe 1 (O),,,,
+15:14,GPIO39,00 01 10 or 11,Configure this pin as: GPIO 39 - general purpose I/O 39 (default) Reserved XA16 - External interface (XINTF) address line 16 (O),,,,
+13:12,GPIO38,00 01 10 or 11,Configure this pin as: GPIO 38 - general purpose I/O 38 (default) Reserved XWE0 - External interface write enable strobe 0,,,,
+11:10,GPIO37,00 01 10 or 11,Configure this pin as: GPIO 37 - general purpose I/O 37 (default) ECAP2 - Enhanced capture input/output 2 (I/O) XZCS7 - External interface zone 7 chip select (O),,,,
+9:8,GPIO36,00 01 10 or 11,Configure this pin as: GPIO 36 - general purpose I/O 36 (default) SCIRXDA - SCI-A receive data (I) XZCS0 - External interface zone 0 chip select (O),,,,
+7:6,GPIO35,00 01 10 or 11,"Configure this pin as: GPIO 35 - general purpose I/O 35 (default) SCITXDA - SCI-A transmit data (O) XR/W - Read Not Write Strobe. Normally held high. When low, XR/W indicates write cycle is active; when high, XR/W indicates read cycle is active.",,,,
+5:4,GPIO34,00 01 10 or 11,Configure this pin as: GPIO 34 - general purpose I/O 34 (default) ECAPI - Enhanced capture input/output 1 (I/O) XREADY - External interface ready signal,,,,
+Bit,Field,Value,Description,,,,
+3:2,GPIO33,00 01 10 11,Configure this pin as: GPIO 33 - general purpose I/O 33 (default) SCLA - I2C clock open drain bidirectional port (I/O) EPWMSYNCO - External ePWM sync pulse output (O) ADCSOCBO - ADC start-of-conversion B (O),,,,
+1:0,GPIO32,00 01 10 11,Configure this pin as: GPIO 32 - general purpose I/O 32 (default) SDAA - I2C data open drain bidirectional port (I/O) EPWMSYNCI - External ePWM sync pulse input (I) ADCSOCAO - ADC start-of-conversion A (O),,,,
+GPIO63,GPIO62,GPIO61,GPIO60,GPIO59,GPIO58,GPIO57,GPIO56
+GPIO55,GPIO54,GPIO53,GPIO52,GPIO51,GPIO50,GPIO49,GPIO48

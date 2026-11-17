@@ -1,0 +1,12 @@
+﻿col_1,col_2,col_3,col_4
+Bits,Field,Value,Description
+31-28,Reserved,,Reserved
+27,TRST,0 1,Read status of TRST signal. Reading this bit gives the current satus of the TRST signal. No emulator is connected. An emulator is connected.
+26:20,Reserved,,
+19,ENPROT,0 1,Enable Write-Read Protection Mode Bit. Disables write-read protection mode Enables write-read protection as specified by the PROTSTART and PROTRANGE registers
+18-6,Reserved,,Reserved
+5,XRS,,Reset Input Signal Status. This is connected directly to the XRS input pin.
+4,Reserved,,Reserved
+3,VMAPS,,VMAP Configure Status. This indicates the status of VMAP.
+2-0,Reserved,,Reserved
+PARTTYPE,PARTNO,,

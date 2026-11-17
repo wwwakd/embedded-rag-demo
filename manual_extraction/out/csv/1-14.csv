@@ -1,0 +1,4 @@
+﻿col_1,col_2,col_3,col_4,col_5,col_6,col_7,col_8
+Name,Address,Size (x16),Description(1),Bit Description,,,
+ECANBENCLK,ECANAENCLK,MCBSPBENCLK,MCBSPAENCLK,SCIBENCLK,SCIAENCLK,Reserved,SPIAENCLK
+Reserved,SCICENCLK,I2CAENCLK,ADCENCLK,TBCLKSYNC,Reserved,,

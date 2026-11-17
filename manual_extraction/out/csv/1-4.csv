@@ -1,0 +1,9 @@
+﻿col_1,col_2,col_3,col_4
+Bit,Field,Value,Description (1) (2)
+15-9,Reserved,,Reserved
+8,3VSTAT,0 1,"Flash Voltage (V ) Status Latch Bit. When set, this bit indicates that the 3VSTAT signal from DD3VFL the pump module went to a high level. This signal indicates that the flash 3.3-V supply went out of the allowable range. Writes of 0 are ignored. When this bit reads 1, it indicates that the flash 3.3-V supply went out of the allowable range. Clear this bit by writing a 1."
+7-4,Reserved,,Reserved
+3,ACTIVEWAITS,0 1,Bank and Pump Standby To Active Wait Counter Status Bit. This bit indicates whether the respective wait counter is timing out an access. The counter is not counting. The counter is counting.
+2,STDBYWAITS,0 1,Bank and Pump Sleep To Standby Wait Counter Status Bit. This bit indicates whether the respective wait counter is timing out an access. The counter is not counting. The counter is counting.
+1-0,PWRS,00 01 10 11,Power Modes Status Bits. These bits indicate which power mode the flash/OTP is currently in. The PWRS bits are set to the new power mode only after the appropriate timing delays have expired. Pump and bank in sleep mode (lowest power) Pump and bank in standby mode Reserved Pump and bank active and in read mode (highest power)
+Reserved,STDBYWAIT,,

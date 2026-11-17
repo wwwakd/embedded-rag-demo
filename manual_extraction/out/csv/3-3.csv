@@ -1,0 +1,9 @@
+﻿col_1,col_2,col_3,col_4
+egister,Address offset,Shadowed,Description
+,Reset Zero Counter UP/DOWN Mode Dir Max Load clk,,
+CTR dir,,,
+_ TR max _,,,
+TBCLK,,,
+,TBCTR Counter Active Reg,,
+Disable,,,
+LKOUT,Clock Prescale,TBCLK,
