@@ -1,4 +1,4 @@
-# 校验 GitHub / GitCode 两个远端与本地是否一致（只读，不做任何修改）
+﻿# 校验 GitHub / GitCode 两个远端与本地是否一致（只读，不做任何修改）
 # 用法： powershell -File scripts/check_mirror.ps1
 param(
     [string]$RepoPath = (Split-Path -Parent $PSScriptRoot),
