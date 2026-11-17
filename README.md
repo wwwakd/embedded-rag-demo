@@ -78,5 +78,5 @@ CrossEncoder（bge-reranker-v2-m3），这里换成无依赖的近似实现。
 这个仓库是**脱敏演示版**：生产语料、评测集与部分组件不在其中。
 逐项清单与原因见 [docs/03_what_is_missing.md](docs/03_what_is_missing.md)。
 
-一句话版本：**生产语料（近两千页手册、1437 chunks）、真实评测集（200 题）、
+**生产语料（近两千页手册、1437 chunks）、真实评测集（200 题）、
 CrossEncoder 重排、向量索引、以及整个上游业务系统，都不在这里。**
